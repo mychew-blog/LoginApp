@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    database: mysql
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: asdf
+    username: root
+    url: jdbc:mysql://localhost:3306/kopring?serverTimezone=UTC&characterEncoding=UTF-8
